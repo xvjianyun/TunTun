@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1080px), only screen and (max-device-width:1080px) {
+    html,body {
+        font-size:33.75px;
+    }
+  }
+    @media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+    html,body {
+        font-size:30px;
+    }
+  }
+    @media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+    html,body {
+        font-size:25px;
+    }
+  }
+    @media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+    html,body {
+        font-size:22.5px;
+    }
+  }
+    @media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+    html,body {
+        font-size:20px;
+    }
+  }
+    @media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+    html,body {
+        font-size:18.75px;
+    }
+  }
+    @media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+    html,body {
+        font-size:16.875px;
+    }
+  }
+    @media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+    html,body {
+        font-size:15px;
+    }
+  }
+    @media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+    html,body {
+        font-size:12.9375px;
+    }
+  }
+    @media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+    html,body {
+        font-size:12.5px;
+    }
+  }
+    @media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+    html,body {
+        font-size:11.71875px;
+    }
+  }
+    @media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+    html,body {
+        font-size:11.25px;
+    }
+  }
+    @media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+    html,body {
+        font-size:10px;
+    }
+  }
+    @media only screen and (max-width: 240px), only screen and (max-device-width:240px) {
+    html,body {
+        font-size:7.5px;
+    }
+  }
+ header{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 0.5rem;
+}
+header div{
+   width: 6.9rem;
+   height: 6.9rem;
+   background-image: url('../images/login-logo.png');
+   border-radius: 50%;
+   background-size: cover;
+   margin: 2.15rem 0;
+}
+body{
+   padding: 0 2.8rem;
+   background-color: #ffffff;
+}
+.main>div{
+   display: flex;
+   align-items: center;
+}
+.main>div input{
+   font-size: 1.6rem;
+   color: #cccccc;
+   height: 3.8rem;
+   flex: 1;
+} 
+.main>div a{
+   font-size: 1rem;
+   color: #78797a;
+}
+.main .phone .phone-before{
+   margin-right: 0.5rem;
+}
+.main .phone .phone-before a span:nth-child(2){
+   color: #5f6061;
+}
+.main .phone,.main .reg{
+   border-bottom: 2px solid #cccccc;
+}
+.reg-after{
+   border-left:1px solid #d8d8d8;
+   padding: 0.3rem 0 0.3rem 0.7rem;
+   position: relative;
+}
+.reg-after span{
+   position: absolute;
+   font-size: 1.5rem;
+   color: #c6c7cc;
+   left: -1.9rem;
+   top: 0;
+   font-weight: bold;
+   display: none;
+}
+.main .submit input{
+   height: 3.9rem;
+   width: 100%;
+   background-color: #ffedb3;
+   font-size: 1.3rem;
+   border-radius: 10px;
+   margin-top: 1.5rem;
+   color: #cbc8bb;
+   cursor: pointer;
+}
+.main .tips{
+   font-size: 1rem;
+   color: #a2a2a2;
+   text-align: center;
+   margin-top: 1rem;
+}
+.main .toggle{
+   font-size: 1rem;
+   color: #555555;
+   text-align: center;
+   margin-top: 3rem;
+}
+.main .toggle span{
+   cursor: pointer;
+}
+footer{
+   height: 4rem;
+   font-size: 0.9rem;
+   color: #999999;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+footer span a{
+   font-size: 0.9rem;
+   color: #fe8c00;
+}
